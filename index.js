@@ -3,7 +3,6 @@ const cors = require("cors");
 const path = require("path");
 
 const projectRoutes = require("./routes/projects");
-const contactRoutes = require("./routes/contacts");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -38,21 +37,18 @@ app.get("/", (req, res) => {
   res.json({
     message: "API de Portafolio Web 🚀",
     version: "2.0.0",
-    description: "API REST con almacenamiento en JSON y MySQL",
+    description: "API REST para portafolio de proyectos",
     endpoints: {
       projects: "/api/projects",
       project_by_id: "/api/projects/:id",
       filter_by_category:
         "/api/projects?categoria=frontend|disenouxui|framework",
-      contacts: "/api/contacts",
-      contact_by_id: "/api/contacts/:id",
     },
   });
 });
 
 // API Routes
 app.use("/api/projects", projectRoutes);
-app.use("/api/contacts", contactRoutes);
 
 // Manejo de rutas no encontradas
 app.use((req, res) => {
