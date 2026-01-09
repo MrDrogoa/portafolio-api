@@ -1,0 +1,437 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "slug": "proyecto-libros",
+      "titulo": "Proyecto - Libros",
+      "descripcion": "En las primeras etapas de nuestro trabajo con el brief y el benchmark, llevamos a cabo un estudio exhaustivo sobre el mercado de libros en Chile, ya que fue el ámbito asignado a nuestro equipo. Durante el proceso, analizamos diversos aspectos del sector, incluyendo tendencias de consumo, canales de distribución y estrategias de promoción utilizadas por la competencia. A medida que avanzábamos en la investigación.",
+      "categoria": "diseno-centrado-en-el-usuario",
+      "tecnologias": ["Figma"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 1,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/disenouxui/libros/libros-1.webp",
+          "titulo": "Investigación",
+          "descripcion": "Paso 1. Durante este proceso, examinamos diversas plataformas relacionadas con el mercado de libros y las ferias literarias en Chile, bibliofest, feria chilena del libro, etc, con el propósito de identificar los rangos de edad que muestran mayor interés en la adquisición de libros. A través de este análisis, buscamos comprender el comportamiento de los lectores y sus preferencias, lo que nos permitió desarrollar estrategias más efectivas para fomentar la lectura en el país y ampliar el impacto de nuestra iniciativa.",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/disenouxui/libros/libros-2.webp",
+          "titulo": "Método 1",
+          "descripcion": "Paso 2. Recopilamos información a través de encuestas y entrevistas con usuarios, lo que nos permitió conocer sus hábitos de lectura y preferencias en la compra de libros. Estos datos fueron clave para ajustar nuestra estrategia y mejorar nuestra propuesta. Paso 3. Realizamos el brief correspondiente para desarrollar bien la idea final sobre los temas de los libros.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/disenouxui/libros/libros-3.webp",
+          "titulo": "Método 2",
+          "descripcion": "Paso 4. Después de completar los estudios previos, realizamos un benchmark sencillo, comparando estrategias de distintas plataformas y ferias de libros. Aunque el análisis fue básico, nos permitió obtener una visión general del mercado y detectar oportunidades para mejorar nuestra propuesta de promoción de la lectura y compra de libros en Chile. Paso 5. Logramos definir los tipos de usuarios que estarian interesados en comprar libros.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/disenouxui/libros/libros-4.webp",
+          "titulo": "Método 3",
+          "descripcion": "Paso 6. Establecimos objetivos claros y recopilamos los pasos previos del proyecto, desde el análisis del mercado de libros en Chile hasta la evaluación de plataformas y ferias literarias. Identificamos los rangos de edad más interesados en adquirir libros, lo que nos permitió entender su comportamiento y diseñar estrategias para fomentar la lectura en el país.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/disenouxui/libros/libros-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "En la presentación final, expusimos nuestro trabajo ante compañeros y profesores, resaltando la idea central de nuestra propuesta para incentivar la lectura y facilitar la compra de libros en Chile. Compartimos los hallazgos de nuestro análisis, los objetivos que definimos y las estrategias diseñadas para conectar con distintos segmentos de lectores.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "petmatch-diseno",
+      "titulo": "Petmatch - Diseño",
+      "descripcion": "En el trabajo desarrollamos una solución para combatir el abandono de perros y el mercado ilegal que los rodea. Nuestra aplicación facilita la adopción responsable, ofreciendo un espacio seguro para conectar a personas con mascotas que buscan un hogar. Además, creamos una landing page informativa para motivar a la comunidad a involucrarse y contactarnos fácilmente. A través de esta iniciativa, buscamos reducir el tráfico ilegal de animales y fomentar adopciones seguras y conscientes.",
+      "categoria": "diseno-centrado-en-el-usuario",
+      "tecnologias": ["Figma"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 2,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/disenouxui/pet-match/pet-diseño-1.webp",
+          "titulo": "Investigación",
+          "descripcion": "Paso 1. Durante este proceso, analizamos diversas plataformas de adopción de mascotas, lo que nos permitió comprender mejor sus características y enfoques. Gracias a este aprendizaje, definimos con mayor claridad la dirección de nuestra aplicación y landing page, asegurándonos de que reflejen nuestra visión de una adopción responsable y accesible para todos.",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/disenouxui/pet-match/pet-diseño-2.webp",
+          "titulo": "Método 1",
+          "descripcion": "Paso 2. Utilizamos el método del brief para analizar el proceso de adopción de mascotas, lo que nos permitió identificar fortalezas y debilidades. Esto nos ayudó a definir mejor la dirección de nuestra aplicación y landing page. Paso 3. En el Benchmark realizamos el estudio de los sitios relacionados a la adopcion en Chile. Para definir una propuesta concreta.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/disenouxui/pet-match/pet-diseño-3.webp",
+          "titulo": "Método 2",
+          "descripcion": "Paso 4. Una vez avanzado con los estudios procedimos hacer el logo que queriamos para la app y la web. Tuvimos muchas deficultades para definir en logo ya que es muy complejo de realizar y teniamos ideas diferentes pero acordamos el diseño del logo con criterio y mucho cuidado. Paso 5. Se aplicó una encuesta a contactos y potenciales usuarios para conocer sus hábitos, motivaciones y preocupaciones al adoptar mascotas. Los resultados permitieron identificar arquetipos de usuario, lo que ayudó a orientar el diseño hacia soluciones centradas en las necesidades reales de la audiencia.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/disenouxui/pet-match/pet-diseño-4.webp",
+          "titulo": "Método 3",
+          "descripcion": "Paso 6. Se desarrollaron los wireframes de la app y la landing page para visualizar la estructura y experiencia del usuario, alineando al equipo en una visión común del proyecto. Paso 7. Se elaboró una mini guía de estilos definiendo colores, tipografías, imágenes y tono visual, lo que aseguró una identidad gráfica coherente en todos los elementos del proyecto.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/disenouxui/pet-match/pet-diseño-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "Para la presentación final, realizamos ajustes en el diseño y optimizamos la estructura de nuestra aplicación. También integramos las conexiones necesarias para que la información fluya de manera organizada, asegurando una experiencia clara para el usuario. Además, reforzamos el llamado a la acción en nuestra landing page, guiando a los visitantes hacia la descarga de la aplicación.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "womad-rediseno",
+      "titulo": "Womad - Rediseño",
+      "descripcion": "En este proyecto pude conocer mas a fondo las metodologias que se usan para estudiar Womad, me ayudó a entender lo que debemos hacer antes de empezar el diseño, metodos como el brief, benchmark, user flow, arquetipos son algunas de las habilidades que desarrolle con este proyecto.",
+      "categoria": "diseno-centrado-en-el-usuario",
+      "tecnologias": ["Figma"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 3,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/disenouxui/womad-reediseño/womad-1.webp",
+          "titulo": "Investigación",
+          "descripcion": "Paso 1. Lo primero que hicimos como equipo es definir las tareas para cada uno y generar el contrato como compromisos generales, procedimos a inspeccionar y evaluar la usabilidad y accesibilidad de la pagina web, para poder hacer una propuesta concreta ",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/disenouxui/womad-reediseño/womad-2.jpg",
+          "titulo": "Método 1",
+          "descripcion": "Paso 2. Debido al estudio que hicimos previamente a Womad pudimos realizar metodologias como Brief para identificar la problematica, fortalezas y debilidades para tener un panorama mas claro de lo que debiamos hacer. Paso 3. En Benchmark identificamos las posibles competencias del sitio para analizarlas y tener un review de sus debilidades para hacerlas nuestras fortalezas.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/disenouxui/womad-reediseño/womad-3.webp",
+          "titulo": "Método 2",
+          "descripcion": "Paso 4. Una vez avanzado con los estudios procedimos hacer el logo que queriamos para la app y la web. Tuvimos muchas deficultades para definir en logo ya que es muy complejo de realizar y teniamos ideas diferentes pero acordamos el diseño del logo con criterio y mucho cuidado. Paso 5. En este paso Realizamos una encuesta entre nuestros contactos, lo que nos permitió definir arquetipos de usuario y comprender mejor sus necesidades.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/disenouxui/womad-reediseño/womad-4.webp",
+          "titulo": "Método 3",
+          "descripcion": "Paso 7. Logramos definir los tipos de publico que se centrarian en womad identificando sus intereses, motivaciones, etc. Y las encuestamos según sus capacidades. Paso 8. En la guía de estilos pusimos los colores que queriamos que tenga para nuestra propuesta, el tipo de fuente, tamaño de las imagenes, los iconos, etc.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/disenouxui/womad-reediseño/womad-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "Para la presentacion final de nuestra propuesta lo diseñamos en la plataforma de figma, trabajamos colectivamente para hacer el trabajo mas facil aunque al principio nos costo acostumbrarnos para las diferentes ideas que teniamos, pero decidimos basarnos en los estudios realizados previamente para lograr un diseño wiframe como un boceto para proceder al mockup final. Luego de tener el mockup final, lo presentamos a nuestros compañeros y profesores para recibir feedback y mejorar nuestra propuesta.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "proyecto-bootstrap",
+      "titulo": "Proyecto - Bootstrap",
+      "descripcion": "Para este trabajo aprendimos los fundamentos de las librerías CSS, enfocándonos específicamente en Bootstrap. Descubrimos lo práctico que resulta el uso de esta herramienta para el manejo de estilos, ya que permite prescindir del archivo style.css. Al integrar el enlace de Bootstrap en la sección <head> del documento HTML, fue posible aplicar estilos simplemente modificando las clases predefinidas, lo que facilitó la personalización visual de los elementos según nuestras necesidades.",
+      "categoria": "desarrollo-front-end",
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 1,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/frontend/bootstrap/bootstrap-1.webp",
+          "titulo": "Proceso - 1",
+          "descripcion": "Paso 1. En esta etapa, debíamos rehacer el trabajo previamente desarrollado con HTML y CSS puro, pero esta vez incorporando la librería Bootstrap. Al integrar esta herramienta en nuestro archivo, el proceso se volvió más ágil y eficiente, ya que evitamos escribir más de 200 líneas de código CSS. Bootstrap nos permitió reutilizar clases prediseñadas para aplicar estilos de forma rápida.",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/frontend/bootstrap/bootstrap-2.webp",
+          "titulo": "Proceso - 2",
+          "descripcion": "Paso 2. Como parte del proceso de preparación para el trabajo final grupal, se decidió reconstruir las páginas anteriores del proyecto incluyendo el wireframe y la página del restaurante utilizando el framework Bootstrap 5. Esta acción tuvo como objetivo unificar criterios de diseño, estructura y estilos, permitiendo al equipo familiarizarse con herramientas y convenciones que se usarían en el desarrollo final",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/frontend/bootstrap/bootstrap-3.webp",
+          "titulo": "Proceso - 3",
+          "descripcion": "Paso 3. Esta etapa representó un desafío importante debido a la necesidad de adaptar el diseño para múltiples dispositivos. Gracias al apoyo de la documentación oficial, fue posible comprender el comportamiento de los componentes y aplicar los ajustes necesarios, logrando una implementación responsive exitosa.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/frontend/bootstrap/bootstrap-4.webp",
+          "titulo": "Proceso - 4",
+          "descripcion": "Paso 4. Como equipo de trabajo, necesitábamos coordinarnos para cumplir con los plazos establecidos. Para esta etapa, nos organizamos en parejas, lo que facilitó repartir tareas y avanzar con mayor eficiencia. Sin embargo, al principio nos costó adaptarnos a Bootstrap, ya que su estructura rígida lo hacía parecer algo limitado en cuanto a personalización. Aun así, con práctica y apoyo entre compañeros, logramos comprender su lógica y aplicarla correctamente.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/frontend/bootstrap/bootstrap-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "En la presentación final, abordamos los principales aspectos de la estructura del proyecto, destacando nuestro proceso de aprendizaje sobre Bootstrap. A lo largo del desarrollo, sin haberlo planeado explícitamente, adquirimos nuevas habilidades que nos permitieron manejar el diseño responsivo de manera más sencilla y efectiva. Este proceso nos ayudó a comprender mejor la importancia de una planificación adecuada y la versatilidad que ofrece Bootstrap para la creación de sitios web adaptables.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "proyecto-landings",
+      "titulo": "Proyecto - Landings",
+      "descripcion": "En este proyecto, trabajamos directamente con código, aplicando conocimientos básicos sobre la estructura de HTML y el manejo de diseño con CSS. A lo largo del proceso, desarrollamos wireframes y mockups proporcionados por los profesores, permitiéndonos trabajar tanto de manera individual como en equipo para dar forma a nuestra propuesta. Este enfoque nos ayudó a fortalecer nuestras habilidades en diseño web y colaboración, asegurando que cada elemento reflejara una estructura clara y una estética bien definida.",
+      "categoria": "desarrollo-front-end",
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 2,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/frontend/landings/landing-1.webp",
+          "titulo": "Proceso - 1",
+          "descripcion": "Paso 1. El primer paso del proyecto consistió en un trabajo individual, donde tuve que replicar el diseño de una plantilla creada en Adobe XD. Este ejercicio me permitió desarrollar nuestra precisión en la maquetación, reforzar el uso de HTML y CSS.",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/frontend/landings/landing-2.webp",
+          "titulo": "Proceso - 2",
+          "descripcion": "Paso 2. Desarrolle la carpeta en VSC llamada “wiframe-prueba” y cree los archivos de index.html y styles.css, en HTML cree lo primero que se hace para crear una estructura de una pagina que es “!”. Y procedi en hacer la estructura segun lo enviado por el profe. Paso 3. En la segunda landing page, diseñé un restaurante con estilos más avanzados. Aunque enfrenté algunas dificultades para ubicar ciertos elementos, logré completar el proyecto según los requerimientos de los profesores, asegurando un diseño funcional y bien estructurado.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/frontend/landings/landing-3.webp",
+          "titulo": "Proceso - 3",
+          "descripcion": "Paso 4. Para este proyecto que fue un sitio de viajes la cual nos toco en el sorteo impuesto por los profes, lo trabajamos en grupo. Paso 5. Al inicio, enfrentamos incertidumbre, ya que ninguno tenía un manejo sólido de HTML y CSS. Para hacer el trabajo más flexible, decidimos organizarnos en grupos de dos, lo que permitió distribuir mejor las tareas. Como el proyecto incluía dos páginas, esta estrategia resultó ideal para avanzar de manera eficiente y colaborativa.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/frontend/landings/landing-4.webp",
+          "titulo": "Proceso - 4",
+          "descripcion": "Paso 6. Organizamos el trabajo definiendo las secciones que cada integrante manejaría. En mi caso, me encargué del desarrollo y el estilo de la segunda página, mientras que mi compañera me proporcionaba las imágenes necesarias. Además, todo debía ser responsive para garantizar una buena experiencia en distintos dispositivos. Mis otros compañeros siguieron la misma dinámica, estableciendo estilos, carpetas e imágenes para lograr una entrega organizada y completa.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/frontend/landings/landing-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "En la presentación final, enviamos nuestro trabajo a los profesores para su evaluación y recibir su feedback. Identificaron varios aspectos que podrían mejorarse en el futuro, tanto en la organización del equipo como en la presentación del proyecto. Estos comentarios nos brindaron una perspectiva valiosa para optimizar nuestros procesos y reforzar la calidad de nuestro trabajo en próximos proyectos.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "petmatch-frontend",
+      "titulo": "Petmatch - Front End",
+      "descripcion": "El proyecto consistió en replicar el trabajo del primer semestre, esta vez enfocándose en el desarrollo de un sitio web con Bootstrap. Se aplicaron los conocimientos adquiridos para mejorar la estructura, diseño y responsividad, optimizando la experiencia del usuario con los componentes y estilos de la librería.",
+      "categoria": "desarrollo-front-end",
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 3,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/frontend/pet-front/pet-front-1.webp",
+          "titulo": "Proceso - 1",
+          "descripcion": "Paso 1. Durante el desarrollo del proyecto, adquirimos un mayor entendimiento de la librería Bootstrap, especialmente en cuanto a sus breakpoints, lo que nos permitió estructurar el sitio web con mayor claridad. Además, implementamos diversas clases, como aquellas destinadas a padding y margin, así como las relacionadas con la distribución de columnas (col), facilitando la organización y el diseño de los elementos en la página. ",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/frontend/pet-front/pet-front-2.webp",
+          "titulo": "Proceso - 2",
+          "descripcion": "Paso 2. Como parte del proceso de preparación para el trabajo final en equipo, se procedió a reconstruir tanto el wireframe como la página del restaurante utilizando la librería de Bootstrap 5. Esta decisión tuvo como propósito principal estandarizar el estilo visual del proyecto, practicar la implementación de estructuras responsive y facilitar la colaboración entre los miembros del equipo. Además, esta reconstrucción permitió identificar mejoras clave en la jerarquía de contenido y optimizar la experiencia del usuario desde etapas tempranas del desarrollo.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/frontend/pet-front/pet-front-3.webp",
+          "titulo": "Proceso - 3",
+          "descripcion": "Paso 3. Modificamos también un acordeón para acomodarlo en nuestra página y que muestre información estructurada de preguntas frecuentes para nuestro sitio. La implementación se ajustó para mantener la coherencia visual del diseño general, garantizando además una experiencia de usuario clara, accesible y funcional en distintos dispositivos. También se revisó su comportamiento interactivo para asegurar transiciones suaves y tiempos de carga óptimos.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/frontend/pet-front/pet-front-4.webp",
+          "titulo": "Proceso - 4",
+          "descripcion": "Paso 4. Para optimizar la organización del trabajo, desarrollamos un esquema en Trello, lo que nos permitió asignar tareas de manera clara y eficiente. En mi caso, me encargué de la segunda página del sitio, la cual incluía un formulario y diversas secciones con imágenes y textos diseñadas con flexbox para lograr una distribución flexible y armoniosa. A lo largo del proceso, cada integrante cumplió con sus responsabilidades, colaborando activamente hasta completar el proyecto y prepararlo para la entrega final.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/frontend/pet-front/pet-front-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "En la presentación final, abordamos los principales aspectos de la estructura del proyecto, destacando nuestro proceso de aprendizaje sobre Bootstrap. A lo largo del desarrollo, sin haberlo planeado explícitamente, adquirimos nuevas habilidades que nos permitieron manejar el diseño responsivo de manera más sencilla y efectiva. Este proceso nos ayudó a comprender mejor la importancia de una planificación adecuada y la versatilidad que ofrece Bootstrap para la creación de sitios web adaptables.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "proyecto-firma",
+      "titulo": "Firma del restaurador",
+      "descripcion": "Este desafío fue especialmente complejo porque implicó trabajar con un cliente real. Se buscó una institución y, en equipo, realizamos entrevistas para comprender sus necesidades. Nos informaron que ya contaban con un sitio web en WordPress, pero su diseño era anticuado, por lo que solicitaban una landing page que facilitara la comunicación con ellos. Fue una experiencia enriquecedora, ya que requirió análisis, planificación y colaboración directa con el cliente para garantizar que la solución cumpliera sus expectativas.",
+      "categoria": "implementacion-de-frameworks",
+      "tecnologias": ["JavaScript", "PHP", "Wordpress", "MySQL"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 1,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/frameworks/firma/firma-1.webp",
+          "titulo": "Proceso - 1",
+          "descripcion": "Paso 1. Iniciamos el proceso realizando un brief con el cliente, lo que nos permitió aclarar tanto sus dudas como las nuestras sobre el proyecto. Además, llevamos a cabo un benchmarking para analizar su posicionamiento y referencias dentro del mercado. Esto nos ayudó a definir una estrategia adecuada para el desarrollo de la landing page, asegurando que se ajustara a sus necesidades y expectativas.",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/frameworks/firma/firma-2.webp",
+          "titulo": "Proceso - 2",
+          "descripcion": "Paso 2. Realizamos una encuesta dirigida a los clientes de la empresa, basada en la información obtenida durante la entrevista con el equipo. Esto nos permitió comprender mejor sus necesidades, preferencias y expectativas, facilitando así el diseño de una landing page más efectiva y alineada con sus requerimientos.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/frameworks/firma/firma-3.webp",
+          "titulo": "Proceso - 3",
+          "descripcion": "Paso 3. Logramos separarnos para hacer y trabajar en conjunto: mi compañero y yo nos encargamos del código y desarrollo del proyecto, mientras que los otros dos integrantes se concentraron en el diseño para lograr el producto final. La colaboración estrecha permitió optimizar cada detalle, fusionando creatividad y técnica para elevar la calidad del proyecto.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/frameworks/firma/firma-4.webp",
+          "titulo": "Proceso - 4",
+          "descripcion": "Paso 4. No tuvimos problema alguno ya que no era nada que no habiamos hecho antes sobre subir el proyecto en wordpress e implementamos javascript para el formulario que tenia que enviarle un mensaje.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/frameworks/firma/firma-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "En la presentación final, expusimos nuestro proyecto presencialmente ante los clientes, detallando primero las mejoras respecto a su sitio antiguo y cómo nuestra propuesta optimizaba su presencia digital. Quedaron fascinados con el resultado, lo que reforzó la calidad de nuestro trabajo. Además, los comentarios de los profesores nos ayudaron a potenciar el proyecto, abriendo la posibilidad de discutir una futura venta. Fue una experiencia enriquecedora y una gran oportunidad para aplicar todo lo aprendido.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "proyecto-habitissimo",
+      "titulo": "Habitissimo - Rediseño",
+      "descripcion": "Tuvimos que rediseñar y mejorar un sitio web existente para este semestre, utilizando WordPress con PHP y una base de datos en phpMyAdmin. Al ser PHP un lenguaje backend, enfrenté varios desafíos, ya que incluso un pequeño error en la sintaxis podía hacer que el código no funcionara. Al principio fue frustrante, pero con la documentación y la orientación del profesor logré desarrollar el proyecto con éxito. Y presentar mi propuesta final del sitio.",
+      "categoria": "implementacion-de-frameworks",
+      "tecnologias": ["JavaScript", "PHP", "Wordpress", "MySQL"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 2,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/frameworks/habitissimo/habi-1.webp",
+          "titulo": "Proceso - 1 ",
+          "descripcion": "Paso 1. Analicé el sitio web de Habitissimo, cuyo propósito era conectar profesionales con potenciales clientes a través de publicaciones sobre sus habilidades. Su diseño reflejaba una estructura más basada en WordPress que en código nativo, lo que influía en su funcionalidad y apariencia.",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/frameworks/habitissimo/habi-2.webp",
+          "titulo": "Proceso - 2",
+          "descripcion": "Paso 2. Creé una carpeta en mi escritorio para el rediseño de Habitissimo y desarrollé el código utilizando Bootstrap, lo que me permitió estructurar mejor el diseño y hacerlo más responsivo. Además, añadí algunas interacciones con JavaScript para mejorar la experiencia del usuario y hacer la navegación más dinámica. Esta implementación representa mi propuesta final, basada en el diseño previamente desarrollado en Figma, donde definí la estructura visual y los elementos clave para mejorar la usabilidad del sitio.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/frameworks/habitissimo/habi-3.webp",
+          "titulo": "Proceso - 3",
+          "descripcion": "Paso 3. Para este paso, descargué WordPress desde su página oficial y extraje los archivos para colocarlos en MAMP → htdocs. Luego, dentro de wp-content → themes, creé una plantilla personalizada llamada \"Habitissimo\". Este proceso me permitió estructurar el sitio desde cero, adaptando la apariencia y funcionalidades según mi propuesta de rediseño.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/frameworks/habitissimo/habi-4.webp",
+          "titulo": "Proceso - 4",
+          "descripcion": "Paso 4. Para integrar mi proyecto en WordPress, organicé todos los archivos dentro de la carpeta \"Habitissimo\", creando los esenciales como index.php y style.php para la interfaz. También desarrollé functions.php para gestionar los enlaces y asegurar que todo se mostrara correctamente. Además, estructuré la plantilla con header.php, footer.php, single.php, single-profesionales, entre otros.Este proceso permitió que el sitio generara contenido dinámico dentro de WordPress. Al principio parecía una tarea imposible, pero con dedicación logré completarlo, aunque aún quedaron algunos detalles por pulir. Fue un reto, pero el resultado fue satisfactorio.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/frameworks/habitissimo/habi-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "En la presentación final, subí el proyecto a cPanel junto con su base de datos, permitiendo que estuviera disponible para su demostración en la clase de Administración de Contenidos, enfocada en PHP y WordPress. Pude presentar mi propuesta del sitio con algunas mejoras que consideré necesarias, sin inconvenientes. Al hacerlo, recordé los desafíos que enfrenté en el proceso, desde la configuración inicial hasta la integración de contenido dinámico. En retrospectiva, fue un aprendizaje valioso que me permitió consolidar conocimientos y mejorar mis habilidades.",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "proyecto-spotify",
+      "titulo": "Spotify - Clon",
+      "descripcion": "En este desafío, trabajé con la API de WordPress para desarrollar un proyecto independiente, usando WordPress únicamente como base de datos, sin crear un nuevo tema. Implementé consultas y operaciones CRUD en PHP y JavaScript para gestionar la incorporación de artistas. Para verificar la correcta funcionalidad de la API, utilicé Postman, lo que me permitió probar las solicitudes y detectar posibles errores. Fue un reto significativo, ya que hasta el momento solo habíamos trabajado con plantillas de WordPress, pero aquí el enfoque fue distinto: WordPress servía únicamente para mostrar entradas, sin intervenir en el diseño ni la estructura del sitio. A pesar de la complejidad inicial, logré adaptarme y comprender mejor la interacción entre PHP, JavaScript y la API de WordPress.",
+      "categoria": "implementacion-de-frameworks",
+      "tecnologias": ["JavaScript", "PHP", "Wordpress", "MySQL"],
+      "demo_url": "",
+      "github_url": "",
+      "orden": 3,
+      "content": [
+        {
+          "id": 1,
+          "url": "/images/frameworks/spotify/spotify-1.webp",
+          "titulo": "Proceso - 1",
+          "descripcion": "Paso 1. Analicé el sitio de Spotify como referencia para desarrollar una aplicación web que permitiera añadir artistas. Aunque el sitio no contenía demasiada información para este propósito, la clave fue aplicar lo aprendido en diseño y funcionalidad anteriormente para estructurar la propuesta de manera efectiva.",
+          "orden": 1
+        },
+        {
+          "id": 2,
+          "url": "/images/frameworks/spotify/spotify-2.webp",
+          "titulo": "Proceso - 2",
+          "descripcion": "Paso 2. Para esta etapa, desarrollé la aplicación en HTML y CSS, creando una carpeta directamente en MAMP para visualizar el proyecto en ejecución. Además, implementé los archivos PHP necesarios para que la funcionalidad del sitio estuviera correctamente integrada y operativa. La arquitectura modular del proyecto facilita la integración de futuras funcionalidades y simplifica el mantenimiento.",
+          "orden": 2
+        },
+        {
+          "id": 3,
+          "url": "/images/frameworks/spotify/spotify-3.webp",
+          "titulo": "Proceso - 3",
+          "descripcion": "Paso 3. Para avanzar en el proyecto, investigué a fondo la API de WordPress, ya que necesitaba comprender cómo interactuar con ella de manera efectiva. Después de revisar documentación y explorar diferentes recursos, logré identificar su funcionamiento y, para asegurarme de que no hubiera errores, realicé pruebas en Postman. Esto me permitió verificar las respuestas y detectar posibles problemas antes de integrarlas en el desarrollo. Aunque fue un desafío, me ayudó a entender mejor la estructura de la API y cómo optimizar su uso dentro del proyecto.",
+          "orden": 3
+        },
+        {
+          "id": 4,
+          "url": "/images/frameworks/spotify/spotify-4.webp",
+          "titulo": "Proceso - 4",
+          "descripcion": "Paso 4. Implementé la API de WordPress en mi proyecto para consumir las entradas creadas desde mi código, asegurando que también se reflejaran en la interfaz de WordPress. Para facilitar la gestión de artistas, desarrollé un formulario en JavaScript que permitía añadir, eliminar y actualizar registros. Fue un proceso laborioso, pero me permitió mejorar la interactividad y optimizar la administración de contenido dentro del sitio.",
+          "orden": 4
+        },
+        {
+          "id": 5,
+          "url": "/images/frameworks/spotify/spotify-final.webp",
+          "titulo": "Presentación",
+          "descripcion": "En la presentación final de Javascript Avanzado, expuse el proyecto de forma online y lo ejecuté con éxito. El diseño que desarrollé fue sólido y funcional, aunque noté que agregar más artistas habría mejorado la estructura visual y la experiencia general. A pesar de ello, el resultado reflejó el esfuerzo y los conocimientos adquiridos durante el proceso.",
+          "orden": 5
+        }
+      ]
+    }
+  ],
+  "nextId": 10
+}
