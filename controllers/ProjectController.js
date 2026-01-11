@@ -1,11 +1,35 @@
-const ProjectModel = require("../models/Project");
+const fs = require("fs").promises;
+const path = require("path");
+
+const DATA_PATH = path.join(__dirname, "../data/projects.json");
 
 class ProjectController {
+  // Leer datos del archivo JSON
+  static async readData() {
+    try {
+      const data = await fs.readFile(DATA_PATH, "utf8");
+      return JSON.parse(data);
+    } catch (error) {
+      throw new Error(`Error al leer datos: ${error.message}`);
+    }
+  }
+
   // GET /api/projects - Obtener todos los proyectos
   static async getAll(req, res) {
     try {
       const { categoria } = req.query;
-      const projects = await ProjectModel.getAll(categoria);
+      const data = await ProjectController.readData();
+      let projects = data.projects;
+
+      if (categoria) {
+        projects = projects.filter((p) => p.categoria === categoria);
+      }
+
+      // Ordenar por campo 'orden' y luego por id
+      projects = projects.sort((a, b) => {
+        if (a.orden !== b.orden) return a.orden - b.orden;
+        return a.id - b.id;
+      });
 
       res.json({
         success: true,
@@ -25,7 +49,8 @@ class ProjectController {
   static async getById(req, res) {
     try {
       const { id } = req.params;
-      const project = await ProjectModel.getById(id);
+      const data = await ProjectController.readData();
+      const project = data.projects.find((p) => p.id === parseInt(id));
 
       if (!project) {
         return res.status(404).json({
@@ -51,7 +76,10 @@ class ProjectController {
   static async getByCategoryAndSlug(req, res) {
     try {
       const { categoria, slug } = req.params;
-      const project = await ProjectModel.getByCategoryAndSlug(categoria, slug);
+      const data = await ProjectController.readData();
+      const project = data.projects.find(
+        (p) => p.categoria === categoria && p.slug === slug
+      );
 
       if (!project) {
         return res.status(404).json({
@@ -72,125 +100,9 @@ class ProjectController {
       });
     }
   }
+}
 
-  // POST /api/projects - Crear un nuevo proyecto
-  static async create(req, res) {
-    try {
-      const {
-        titulo,
-        descripcion,
-        categoria,
-        tecnologias,
-        github_url,
-        demo_url,
-        orden,
-        images,
-      } = req.body;
-
-      // Validaciones básicas
-      if (!titulo || !descripcion || !categoria) {
-        return res.status(400).json({
-          success: false,
-          message: "Faltan campos requeridos: titulo, descripcion, categoria",
-        });
-      }
-
-      const validCategories = ["frontend", "uxui", "framework"];
-      if (!validCategories.includes(categoria)) {
-        return res.status(400).json({
-          success: false,
-          message: "Categoría inválida. Debe ser: frontend, uxui o framework",
-        });
-      }
-
-      const projectData = {
-        titulo,
-        descripcion,
-        categoria,
-        tecnologias: tecnologias || [],
-        github_url,
-        demo_url,
-        orden: orden || 0,
-        images: images || [],
-      };
-
-      const newProject = await ProjectModel.create(projectData);
-
-      res.status(201).json({
-        success: true,
-        message: "Proyecto creado exitosamente",
-        data: newProject,
-      });
-    } catch (error) {
-      console.error("Error en create:", error);
-      res.status(500).json({
-        success: false,
-        message: error.message,
-      });
-    }
-  }
-
-  // PUT /api/projects/:id - Actualizar un proyecto
-  static async update(req, res) {
-    try {
-      const { id } = req.params;
-      const {
-        titulo,
-        descripcion,
-        categoria,
-        tecnologias,
-        github_url,
-        demo_url,
-        orden,
-        images,
-      } = req.body;
-
-      // Validar categoría si se proporciona
-      if (categoria) {
-        const validCategories = ["frontend", "uxui", "framework"];
-        if (!validCategories.includes(categoria)) {
-          return res.status(400).json({
-            success: false,
-            message: "Categoría inválida. Debe ser: frontend, uxui o framework",
-          });
-        }
-      }
-
-      const projectData = {
-        titulo,
-        descripcion,
-        categoria,
-        tecnologias,
-        github_url,
-        demo_url,
-        orden,
-        images,
-      };
-
-      const updatedProject = await ProjectModel.update(id, projectData);
-
-      if (!updatedProject) {
-        return res.status(404).json({
-          success: false,
-          message: "Proyecto no encontrado",
-        });
-      }
-
-      res.json({
-        success: true,
-        message: "Proyecto actualizado exitosamente",
-        data: updatedProject,
-      });
-    } catch (error) {
-      console.error("Error en update:", error);
-      res.status(500).json({
-        success: false,
-        message: error.message,
-      });
-    }
-  }
-
-  // DELETE /api/projects/:id - Eliminar un proyecto
+module.exports = ProjectController;
   static async delete(req, res) {
     try {
       const { id } = req.params;

@@ -9,9 +9,7 @@ const PORT = process.env.PORT || 4000;
 
 // Configuración de CORS para producción
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN
-    ? process.env.CORS_ORIGIN.split(",")
-    : "*",
+  origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(",") : "*",
   credentials: true,
   optionsSuccessStatus: 200,
 };
