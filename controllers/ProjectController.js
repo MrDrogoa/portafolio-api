@@ -103,21 +103,6 @@ class ProjectController {
 }
 
 module.exports = ProjectController;
-  static async delete(req, res) {
-    try {
-      const { id } = req.params;
-      const deleted = await ProjectModel.delete(id);
-
-      if (!deleted) {
-        return res.status(404).json({
-          success: false,
-          message: "Proyecto no encontrado",
-        });
-      }
-
-      res.json({
-        success: true,
-        message: "Proyecto eliminado exitosamente",
       });
     } catch (error) {
       console.error("Error en delete:", error);
