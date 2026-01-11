@@ -29,9 +29,3 @@ router.get("/:categoria/:slug", ProjectController.getByCategoryAndSlug);
 router.get("/:id", ProjectController.getById);
 
 module.exports = router;
- * @params  id - ID del proyecto
- * @access  Public
- */
-router.delete("/:id", ProjectController.delete);
-
-module.exports = router;
