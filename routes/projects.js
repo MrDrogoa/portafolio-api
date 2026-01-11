@@ -28,26 +28,7 @@ router.get("/:categoria/:slug", ProjectController.getByCategoryAndSlug);
  */
 router.get("/:id", ProjectController.getById);
 
-/**
- * @route   POST /api/projects
- * @desc    Crear un nuevo proyecto
- * @body    { titulo, descripcion, categoria, tecnologias, github_url, demo_url, orden, images }
- * @access  Public
- */
-router.post("/", ProjectController.create);
-
-/**
- * @route   PUT /api/projects/:id
- * @desc    Actualizar un proyecto existente
- * @params  id - ID del proyecto
- * @body    { titulo, descripcion, categoria, tecnologias, github_url, demo_url, orden, images }
- * @access  Public
- */
-router.put("/:id", ProjectController.update);
-
-/**
- * @route   DELETE /api/projects/:id
- * @desc    Eliminar un proyecto
+module.exports = router;
  * @params  id - ID del proyecto
  * @access  Public
  */
