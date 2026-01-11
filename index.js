@@ -11,8 +11,6 @@ const PORT = process.env.PORT || 4000;
 const corsOptions = {
   origin: process.env.CORS_ORIGIN
     ? process.env.CORS_ORIGIN.split(",")
-    : process.env.NODE_ENV === "production"
-    ? ["https://jodani.cl", "https://www.jodani.cl"]
     : "*",
   credentials: true,
   optionsSuccessStatus: 200,
