@@ -103,15 +103,3 @@ class ProjectController {
 }
 
 module.exports = ProjectController;
-      });
-    } catch (error) {
-      console.error("Error en delete:", error);
-      res.status(500).json({
-        success: false,
-        message: error.message,
-      });
-    }
-  }
-}
-
-module.exports = ProjectController;
