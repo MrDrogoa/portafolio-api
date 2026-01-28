@@ -439,7 +439,7 @@
       "descripcion": "Uno de los proyectos más desafiantes que realicé fue el rediseño del sitio web de Arventis, empresa en la que actualmente trabajo. El reto principal fue adaptarme al framework Vue.js, con el cual no tenía tanta experiencia al inicio. Durante la capacitación previa había realizado algunos ejercicios básicos, como aprender a usar vue-router para manejar rutas y trabajar con componentes reutilizables, lo que me permitió comprender mejor la lógica del framework. A diferencia de trabajar con HTML, CSS y JavaScript en un solo archivo, Vue introduce una estructura modular y funciones específicas que resultan muy útiles para programar elementos como botones, menús de navegación y otras interacciones dinámicas. Este proyecto me permitió consolidar mis conocimientos en Vue y aplicar buenas prácticas de desarrollo frontend en un entorno profesional.",
       "categoria": "implementacion-de-frameworks",
       "tecnologias": ["Vue", "Figma", "Animation", "ScrollReveal"],
-      "demo_url": "",
+      "demo_url": "https://arventis.cl/",
       "github_url": "",
       "orden": 4,
       "content": [

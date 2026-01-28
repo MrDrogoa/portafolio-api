@@ -13,10 +13,10 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Environment variables (si agregas en el futuro)
+# Environment variables (archivos locales sensibles)
 .env
 .env.local
-.env.production
+# NO ignorar .env.production para Vercel
 
 # Backup files
 nul
